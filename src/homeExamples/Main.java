@@ -9,6 +9,8 @@ public class Main {
         int number = 20;
         int [] mus = createMus(number);
         printMus("Array: ", mus);
+        // Поиск минимального числа
+        System.out.println("Minimum number: " + findMin(mus));
 
         // Сортировка пузырьком
         simpleSort(mus);

@@ -18,4 +18,13 @@ public class WorkArrays {
         }
         System.out.println();
     }
+
+    // Поиск минимального числа
+    public static int findMin(int[] mus) {
+        int min = mus[0];
+        for (int value : mus) {
+            if (min > value) min = value;
+        }
+        return min;
+    }
 }
